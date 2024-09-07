@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.all-boxes {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-gap: 20px;
+    width: 11cm; 
+    height: 11cm; 
+}
+
+.play-board {
+    display: flex;
+    border: 2px solid #000;
+    padding: 20px;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    height: 11cm; /* Adjusted height */
+    width: 11cm; 
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.all-boxes img {
+    width: 120px; /* Increased from 100px to 150px */
+    height: 120px; /* Increased from 100px to 150px */
+    background-color:lightgoldenrodyellow;
+    cursor: pointer;
+}
